@@ -1,0 +1,332 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Home/X</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-black text-white">
+  <div class="flex container mx-auto">
+    <div class="first w-[10%] md:w-1/2 sticky top-0 h-screen overflow-x-hidden overflow-y-auto-auto">
+      <div class="logo invert w-[50%] my-4">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class=" m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-18jsvk2 r-16y2uox r-8kz0gk"><g><path d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z"></path></g></svg>
+      </div>
+      <div class="sidebar flex m-3 justify-center">
+        <ul class="flex flex-col text-2xl font-bold space-y-2 px-2 md:px-10">
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! material-symbols-outlined">home</span><span class="hidden md:block">Home</span></li>
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! material-symbols-outlined">search</span><span class="hidden md:block">Explore</span></li>
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! material-symbols-outlined">notifications</span><span class="hidden md:block">Notifications</span></li>
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! material-symbols-outlined">person_add</span><span class="hidden md:block">Follow</span></li>
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! material-symbols-outlined">chat</span><span class="hidden md:block">Chat</span></li>
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! invert"><svg viewBox="0 0 33 32" width="30" height="30" aria-hidden="true"><g transform="scale(1)"><path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg>
+                                                                                                                                                                                                </span><span class="hidden md:block">Grok</span></li>
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! material-symbols-outlined">diversity_3</span><span class="hidden md:block">Communities</span></li>
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! material-symbols-outlined">bookmark</span><span class="hidden md:block">Bookmarks</span></li>
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! material-symbols-outlined">diamond</span><span class="hidden md:block">Premium</span></li>
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! material-symbols-outlined">person</span><span class="hidden md:block">Profile</span></li>
+          <li class="flex justify-start items-center gap-3 md:w-fit  px-5 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"><span class="text-3xl! material-symbols-outlined">more_horiz</span><span class="hidden md:block">More</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="second w-full border border-x-slate-400 border-y-black">
+      <div class="top flex sticky top-0 bg-black">
+        <div class="absolute bottom-0 left-[20%] bg-blue-600 w-10 h-1 rounded-full"></div>
+        <div class="left w-1/2 py-3 font-bold text-lg flex justify-center hover:bg-gray-900 cursor-pointer">For You</div>
+        <div class="right w-1/2 py-3 font-bold text-lg flex justify-center hover:bg-gray-900 cursor-pointer">Following</div>
+      </div>
+      <div class="w-full h-[0.5px] bg-gray-400"></div>
+      <div class="post">
+        <div class="whatishapp flex">
+          <div class="img m-2">
+            <img  class="w-12 h-10 rounded-full object-cover" src="https://pbs.twimg.com/profile_images/1800390790788915200/lqNfXVoQ_bigger.jpg" alt="">
+          </div>
+          <input type="text" class="w-full outline-none m-1 p-1" placeholder="What's happening ?!">
+        </div>
+        <div class="whocanreply flex gap-2 mx-8 font-semibold text-sm items-center cursor-pointer text-blue-400">
+          <span class="material-symbols-outlined">globe_asia</span>
+          <span class="hover:underline">Everyone can reply</span>
+        </div>
+        <div class="w-[80%] mx-auto my-3 h-[0.5px] bg-gray-400"></div>
+        <div class="elements flex gap-5 mx-8 justify-between items-center cursor-pointer text-blue-400">
+          <div class="leftel flex items-center text-blue-400">
+            <span class="hover:bg-gray-800 rounded-full p-2 material-symbols-outlined">image</span>
+            <span class="hover:bg-gray-800 rounded-full p-2 material-symbols-outlined">gif_box</span>
+            <span class="hover:bg-gray-800 rounded-full p-2"><svg viewBox="0 0 33 32" width="25" height="25" aria-hidden="true" fill="currentColor"><g transform="scale(1)">
+              <path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg></span>
+            <span class="hover:bg-gray-800 rounded-full p-2 material-symbols-outlined">ballot</span>
+            <span class="hover:bg-gray-800 rounded-full p-2 material-symbols-outlined">sentiment_satisfied</span>
+            <span class="hover:bg-gray-800 rounded-full p-2 material-symbols-outlined">calendar_clock</span>
+            <span class="hover:bg-gray-800 rounded-full p-2 material-symbols-outlined">location_on</span>
+            <span class="hover:bg-gray-800 rounded-full p-2 material-symbols-outlined">flag_2</span>
+          </div>
+          <div class="rightel flex px-7 py-2 rounded-full font-bold text-lg justify-center bg-gray-900 hover:bg-gray-800">Post</div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="post-1 border border-y-gray-400 border-x-black">
+          <div class="userinfo flex items-center justify-between m-3">
+            <div class="flex items-center gap-2">
+              <span><img class="w-12 h-10 cursor-pointer" src="https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_bigger.jpg" alt=""></span>
+              <span class="font-bold text-lg hover:underline cursor-pointer">Elon Musk</span>
+              <span class="cursor-pointer"><svg viewBox="0 0 24 24" width="15" height="15"><!-- Blue badge --><circle cx="12" cy="12" r="11" fill="#1DA1F2" /><!-- White check --><path d="M7 12l3 3 7-7" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="cursor-pointer"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"aria-hidden="true"><path d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z"></path></svg></span>
+              <span class="font-bold text-sm text-gray-600 cursor-pointer">@elonmusk·6h</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <span class="hover:bg-gray-800 rounded-full p-2 cursor-pointer"><svg viewBox="0 0 33 32" width="25" height="25" aria-hidden="true" fill="currentColor"><g transform="scale(1)">
+              <path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg></span>
+              <span class="hover:bg-gray-800 rounded-full p-2 cursor-pointer material-symbols-outlined">more_horiz</span>
+            </div>
+          </div>
+          <div class="userpost m-3">
+            Rivers of blood
+            <img class="rounded-2xl m-auto py-1" src="https://pbs.twimg.com/media/HHdJncwa4AAoqz4?format=jpg&name=900x900" alt="">
+          </div>
+          <div class="useractivity flex justify-between items-center m-3 py-1">
+            <div>
+              <ul class="flex items-center gap-2">
+                <li class="flex items-center"><span class="material-symbols-outlined">chat_bubble</span>2K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">repeat</span>2.5K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">favorite</span>21K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">equalizer</span>8.1M</li>
+              </ul>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined">bookmark</span>
+              <span class="material-symbols-outlined">upload</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-2 border border-y-gray-400 border-x-black">
+          <div class="userinfo flex items-center justify-between m-3">
+            <div class="flex items-center gap-2">
+              <span><img class="w-10 h-6 cursor-pointer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReol5C8LH_6lXRw1IUYFpGYdrzgznvSPOJNS6rQtmyn1Ga4nyBMTsH-LP5jD9VBqpvajbWwcI0ewpY_EjIQriNnvuhgbpUx1Lrnzp8vJWD&s=10" alt=""></span>
+              <span class="font-bold text-lg hover:underline cursor-pointer">Doraemon</span>
+              <span class="cursor-pointer"><svg viewBox="0 0 24 24" width="15" height="15"><!-- Blue badge --><circle cx="12" cy="12" r="11" fill="#1DA1F2" /><!-- White check --><path d="M7 12l3 3 7-7" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="cursor-pointer"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"aria-hidden="true"><path d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z"></path></svg></span>
+              <span class="font-bold text-sm text-gray-600 cursor-pointer">@doraemon·5h</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <span class="hover:bg-gray-800 rounded-full p-2 cursor-pointer"><svg viewBox="0 0 33 32" width="25" height="25" aria-hidden="true" fill="currentColor"><g transform="scale(1)">
+              <path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg></span>
+              <span class="hover:bg-gray-800 rounded-full p-2 cursor-pointer material-symbols-outlined">more_horiz</span>
+            </div>
+          </div>
+          <div class="userpost m-3">
+            Fun Time
+            <img class="rounded-2xl py-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeLC4cgtx6PS77DclFt5Hu4OeLv1aVgRcnm6ibWbOBW5RGFaLApYNE30hma27KjYyuInycblL2FLAXIsKyZxKRYQErPnfxnz1NbIQpUZat7g&s=10" alt="">
+          </div>
+          <div class="useractivity flex justify-between items-center m-3 py-1">
+            <div>
+              <ul class="flex items-center gap-2">
+                <li class="flex items-center"><span class="material-symbols-outlined">chat_bubble</span>6K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">repeat</span>4.1K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">favorite</span>71K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">equalizer</span>7.1M</li>
+              </ul>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined">bookmark</span>
+              <span class="material-symbols-outlined">upload</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-3 border border-y-gray-400 border-x-black">
+          <div class="userinfo flex items-center justify-between m-3">
+            <div class="flex items-center gap-2">
+              <span><img class="w-12 h-10 cursor-pointer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFRDP8JIwwu3wlgdMpKCojztZsJZxQHhTNMja_Z6jd6P7yhU3iLgL9tm78z3RS5XHxiO2LaRQuTKqvOucdIamGjQ4Pbp12WLYTLdBl4ZRM&s=10" alt=""></span>
+              <span class="font-bold text-lg hover:underline cursor-pointer">Shinchan</span>
+              <span class="cursor-pointer"><svg viewBox="0 0 24 24" width="15" height="15"><!-- Blue badge --><circle cx="12" cy="12" r="11" fill="#1DA1F2" /><!-- White check --><path d="M7 12l3 3 7-7" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="cursor-pointer"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"aria-hidden="true"><path d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z"></path></svg></span>
+              <span class="font-bold text-sm text-gray-600 cursor-pointer">@shinchan·3h</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <span class="hover:bg-gray-800 rounded-full p-2 cursor-pointer"><svg viewBox="0 0 33 32" width="25" height="25" aria-hidden="true" fill="currentColor"><g transform="scale(1)">
+              <path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg></span>
+              <span class="hover:bg-gray-800 rounded-full p-2 cursor-pointer material-symbols-outlined">more_horiz</span>
+            </div>
+          </div>
+          <div class="userpost m-3">
+            Friends
+            <img class="rounded-2xl m-auto py-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Ce0iiuGJeV-_vBcBWS0U3PHsjTWVCBepJoYbtpoN71nGwSVwjg2t2MU6iFMQXUZynfwuUHiqfb86zvaKj632wLtI3Mp6BC-aTp20sDk9Yw&s=10" alt="">
+          </div>
+          <div class="useractivity flex justify-between items-center m-3">
+            <div>
+              <ul class="flex items-center gap-2">
+                <li class="flex items-center"><span class="material-symbols-outlined">chat_bubble</span>21K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">repeat</span>42.5K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">favorite</span>241K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">equalizer</span>48.1M</li>
+              </ul>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined">bookmark</span>
+              <span class="material-symbols-outlined">upload</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-4 border border-y-gray-400 border-x-black">
+          <div class="userinfo flex items-center justify-between m-3">
+            <div class="flex items-center gap-2">
+              <span><img class="w-12 h-10 cursor-pointer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy5SYk1denFDlAaR8ZYXmiZaTzqcl5s-78aP4kf_uIXR2TbkwsFSouUqryMvFQyh8yRmUMZDsk389BeZZKIeqWSHI4dDRIwls4zPE7lAEU6Q&s=10" alt=""></span>
+              <span class="font-bold text-lg hover:underline cursor-pointer">Ninja Hattori</span>
+              <span class="cursor-pointer"><svg viewBox="0 0 24 24" width="15" height="15"><!-- Blue badge --><circle cx="12" cy="12" r="11" fill="#1DA1F2" /><!-- White check --><path d="M7 12l3 3 7-7" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="cursor-pointer"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"aria-hidden="true"><path d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z"></path></svg></span>
+              <span class="font-bold text-sm text-gray-600 cursor-pointer">@ninjahattori·6h</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <span class="hover:bg-gray-800 rounded-full p-2 cursor-pointer"><svg viewBox="0 0 33 32" width="25" height="25" aria-hidden="true" fill="currentColor"><g transform="scale(1)">
+              <path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg></span>
+              <span class="hover:bg-gray-800 rounded-full p-2 cursor-pointer material-symbols-outlined">more_horiz</span>
+            </div>
+          </div>
+          <div class="userpost m-3">
+            Ninja Technique
+            <img class="rounded-2xl m-auto py-1" src="data:image/jpeg;base64,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" alt="">
+          </div>
+          <div class="useractivity flex justify-between items-center m-3 py-1">
+            <div>
+              <ul class="flex items-center gap-2">
+                <li class="flex items-center"><span class="material-symbols-outlined">chat_bubble</span>2K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">repeat</span>2.5K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">favorite</span>21K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">equalizer</span>8.1M</li>
+              </ul>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined">bookmark</span>
+              <span class="material-symbols-outlined">upload</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-5 border border-y-gray-400 border-x-black">
+          <div class="userinfo flex items-center justify-between m-3">
+            <div class="flex items-center gap-2">
+              <span><img class="w-12 h-10 cursor-pointer" src="data:image/jpeg;base64,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" alt=""></span>
+              <span class="font-bold text-lg hover:underline cursor-pointer">Ben 10</span>
+              <span class="cursor-pointer"><svg viewBox="0 0 24 24" width="15" height="15"><!-- Blue badge --><circle cx="12" cy="12" r="11" fill="#1DA1F2" /><!-- White check --><path d="M7 12l3 3 7-7" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="cursor-pointer"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"aria-hidden="true"><path d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z"></path></svg></span>
+              <span class="font-bold text-sm text-gray-600 cursor-pointer">@ben10·24h</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <span class="hover:bg-gray-800 rounded-full p-2 cursor-pointer"><svg viewBox="0 0 33 32" width="25" height="25" aria-hidden="true" fill="currentColor"><g transform="scale(1)">
+              <path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg></span>
+              <span class="hover:bg-gray-800 rounded-full p-2 cursor-pointer material-symbols-outlined">more_horiz</span>
+            </div>
+          </div>
+          <div class="userpost m-3">
+            It's Hero Time
+            <img class="rounded-2xl m-auto py-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSU-ay1sq-FQMk0dm-e_y8Dqu9kGmM3zS2Yw&s" alt="">
+          </div>
+          <div class="useractivity flex justify-between items-center m-3 py-1">
+            <div>
+              <ul class="flex items-center gap-2">
+                <li class="flex items-center"><span class="material-symbols-outlined">chat_bubble</span>112K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">repeat</span>92.5K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">favorite</span>921K</li>
+                <li class="flex items-center"><span class="material-symbols-outlined">equalizer</span>988.1M</li>
+              </ul>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined">bookmark</span>
+              <span class="material-symbols-outlined">upload</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="third w-[70%] h-screen hidden md:block sticky top-0 overflow-y-auto">
+      <div class="search m-5 bg-black">
+        <input type="text" class="w-2/3 rounded-full bg-gray-900 text-white px-5 py-2" placeholder="search">
+      </div>
+      <div class="whats w-2/3 rounded-2xl bg-gray-900 text-white px-5 py-2 m-5">
+        <h1 class="text-xl font-bold">What's happening ?</h1>
+        <div class="item-1 flex justify-between my-2 px-2 py-1 hover:bg-gray-800 rounded-lg cursor-pointer">
+          <div class="l-half">
+            <div class="font-bold text-sm text-gray-600">Trending in India</div>
+            <div class="font-bold">#Orry</div>
+          </div>
+          <div class="r-half flex items-center">
+            <span class=" text-xl material-symbols-outlined">more_horiz</span>
+          </div>
+      </div>
+      <div class="item-2 flex justify-between my-2 px-2 py-1 hover:bg-gray-800 rounded-lg cursor-pointer">
+          <div class="l-half">
+            <div class="font-bold text-sm text-gray-600">Politics·Trending</div>
+            <div class="font-bold">Election Commission</div>
+          </div>
+          <div class="r-half flex items-center">
+            <span class=" text-xl material-symbols-outlined">more_horiz</span>
+          </div>
+      </div>
+      <div class="item-3 flex justify-between my-2 px-2 py-1 hover:bg-gray-800 rounded-lg cursor-pointer">
+          <div class="l-half">
+            <div class="font-bold text-sm text-gray-600">Politics·Trending</div>
+            <div class="font-bold">Mission Drishti</div>
+          </div>
+          <div class="r-half flex items-center">
+            <span class=" text-xl material-symbols-outlined">more_horiz</span>
+          </div>
+      </div>
+      <div class="item-4 flex justify-between my-2 px-2 py-1 hover:bg-gray-800 rounded-lg cursor-pointer">
+          <div class="l-half">
+            <div class="font-bold text-sm text-gray-600">Song·Trending</div>
+            <div class="font-bold">#SanamBewafa</div>
+          </div>
+          <div class="r-half flex items-center">
+            <span class=" text-xl material-symbols-outlined">more_horiz</span>
+          </div>
+      </div>
+      <div class="item-5 flex justify-between my-2 px-2 py-1 hover:underline hover:bg-gray-800 rounded-lg cursor-pointer">
+          <a class="text-blue-400" href="">Show More</a>
+      </div>
+      </div>
+      <div class="whos w-2/3 rounded-2xl bg-gray-900 text-white px-5 py-2 m-5">
+        <h1 class="text-xl font-bold">Who to Follow ?</h1>
+        <div class="item-1 flex justify-between my-2 px-2 py-1 cursor-pointer">
+          <div class="l-half">
+            <div class="font-bold hover:underline">Shubham Pandey</div>
+            <div class="font-bold text-sm text-gray-600">52.5k Posts</div>
+          </div>
+          <div class="r-half flex items-center">
+            <span class="text-xl hover:bg-gray-800 rounded-full material-symbols-outlined">add</span>
+          </div>
+        </div>
+        <div class="item-1 flex justify-between my-2 px-2 py-1 cursor-pointer">
+          <div class="l-half">
+            <div class="font-bold hover:underline">Shivam Sahu</div>
+            <div class="font-bold text-sm text-gray-600">48.2k Posts</div>
+          </div>
+          <div class="r-half flex items-center">
+            <span class="text-xl hover:bg-gray-800 rounded-full material-symbols-outlined">add</span>
+          </div>
+        </div>
+        <div class="item-1 flex justify-between my-2 px-2 py-1 cursor-pointer">
+          <div class="l-half">
+            <div class="font-bold hover:underline">Rudresh</div>
+            <div class="font-bold text-sm text-gray-600">30.5k Posts</div>
+          </div>
+          <div class="r-half flex items-center">
+            <span class="text-xl hover:bg-gray-800 rounded-full material-symbols-outlined">add</span>
+          </div>
+        </div>
+        <div class="item-5 flex justify-between my-2 px-2 py-1 hover:underline hover:bg-gray-800 rounded-lg cursor-pointer">
+          <a class="text-blue-400" href="">Show More</a>
+        </div>
+      </div>
+      <div class="terms w-2/3 rounded-2xl bg-gray-900 text-gray-500 px-5 py-2 m-5 flex gap-2 flex-col">
+        <span class="hover:underline cursor-pointer mr-2">Terms of Service</span>
+        <span class="hover:underline cursor-pointer mr-2">Privacy Policy</span>
+        <span class="hover:underline cursor-pointer mr-2">Cookie Policy</span>
+        <span class="hover:underline cursor-pointer mr-2">Accessibility</span>
+        <span class="hover:underline cursor-pointer mr-2">Ads info</span>
+        <span class="hover:underline cursor-pointer mr-2">More</span>
+        <span class="hover:underline cursor-pointer mr-2">© 2026 X Corp.</span>
+      </div>  
+    </div>
+  </div>
+</body>
+</html>
